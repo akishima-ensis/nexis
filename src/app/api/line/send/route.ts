@@ -1,5 +1,5 @@
 import { NextResponse, NextRequest } from 'next/server';
-import { generateLineBotClient } from '../../../services/line';
+import { generateLineBotClient } from '../../../../services/line';
 import { type webhook, validateSignature, LINE_SIGNATURE_HTTP_HEADER_NAME } from '@line/bot-sdk';
 
 const lineBotClient = generateLineBotClient();

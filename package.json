@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "ts-node": "ts-node --project tsconfig.local.json"
   },
   "dependencies": {
     "@line/bot-sdk": "^9.4.0",
